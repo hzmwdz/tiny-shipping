@@ -1,0 +1,36 @@
+{
+    "name": "hzmwdz/tiny-shipping",
+    "description": "",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wanglf63",
+            "email": "906259933@qq.com"
+        }
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.2",
+        "hzmwdz/tiny-core": "^1.0",
+        "illuminate/database": "^8.0",
+        "illuminate/support": "^8.0",
+        "illuminate/validation": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hzmwdz\\TinyShipping\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hzmwdz\\TinyShipping\\TinyShippingServiceProvider"
+            ]
+        }
+    }
+}
